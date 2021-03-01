@@ -1,0 +1,75 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #f6f5f5;
+
+}
+
+/* NavBar */
+.round-border {
+  width: 85%;
+  height: 50rem;
+  margin: 4rem 8rem 0 8rem;
+  /* padding: 5%; */
+  border-style: solid;
+  border-radius: 5%;
+  position: static;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.top-bar{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+a {
+  color: #000;
+}
+
+.awesome{
+  color: #000;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+/* Main center Paragraph */
+.middle{
+  text-align: center;
+  padding-top: 7rem;
+}
+.by-noel{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+.artist{
+  font-weight: 600;
+}
+.create{
+  font-size: 5rem;
+  font-weight: 100;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.retail-pack{
+  font-size: 5rem;
+  font-weight: 700;
+}
+.start-button{
+  border-width: 1.5px;
+  border-radius: 9px;
+  font-weight: 400;
+}
+
+/* Background Art */
+.background-art{
+  /* border-style: solid; */
+  position: absolute;
+  z-index: -1;
+  top: 400px;
+  right: 0;
+  height: 500px;
+  width: 100%;
+  background: url(https://blog.tubikstudio.com/wp-content/uploads/2018/10/Illustrations_identity_design_landscaping.png);
+  background-size: contain;
+}
